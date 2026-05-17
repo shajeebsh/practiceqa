@@ -4,33 +4,11 @@ theme: minima
 baseurl: "/practiceqa"
 url: "https://shajeebsh.github.io"
 
-# Navigation menu - list your main pages here
-header_pages:
-  - index.md
-  - about.md
-  - contact.md
-
-# Or use this format for custom navigation
-nav:
-  - title: Home
-    url: /
-  - title: ASP.NET
-    url: /asp-net/
-  - title: Selenium
-    url: /selenium/
-  - title: SQL
-    url: /sql/
-  - title: Python
-    url: /python/
-  - title: About
-    url: /about/
-
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  
-theme: jekyll-theme-slate  # or jekyll-theme-architect, jekyll-theme-cayman
