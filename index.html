@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<h1>Practice QA</h1>
+<p>Software testing and automation interview questions</p>
+
+<hr>
+
+<h2>Latest Interview Questions</h2>
+
+<ul>
+{% for post in site.posts limit:50 %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{ post.title | replace: "-", " " | replace: ".md", "" }}
+    </a>
+    <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+  </li>
+{% endfor %}
+</ul>
+
+<p><strong>Total posts:</strong> {{ site.posts.size }}</p>
