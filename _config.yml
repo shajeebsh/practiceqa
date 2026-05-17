@@ -4,7 +4,11 @@ theme: minima
 baseurl: "/practiceqa"
 url: "https://shajeebsh.github.io"
 
-# For GitHub Pages
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
