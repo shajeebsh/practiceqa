@@ -1,0 +1,10 @@
+---
+title: "ASP.NET MVC tips"
+date: 2012-07-23 11:41:47 
+author: shajeebhameed
+layout: page
+slug: asp-net-mvc-tips
+status: publish
+---
+
+Extension methods(htmlhelpers etc.) **routing** <http://www.asp.net/mvc/tutorials/older-versions/controllers-and-routing/asp-net-mvc-routing-overview-cs> **model validation** (extending to client side with jquery) Validating user-input and enforcing business rules/logic is a core requirement of most web applications. ASP.NET MVC 2 includes a bunch of new features that make validating user input and enforcing validation logic on models/viewmodels significantly easier. These features are designed so that the validation logic is _always_ enforced on the server, and can optionally also be enforced on the client via JavaScript. The validation infrastructure and features in ASP.NET MVC 2 are designed so that: 1) Developers can easily take advantage of the DataAnnotation validation support built-into the .NET Framework. DataAnnotations provide a really easy way to declaratively add validation rules to objects and properties with minimal code. 2) Developers can optionally integrate either their own validation engine, or take advantage of existing validation frameworks like Castle Validator or the EntLib Validation Library. ASP.NET MVC 2’s validation features are designed to make it easy to plug-in any type of validation architecture – while still taking advantage of the new ASP.NET MVC 2 validation infrastructure (including client-side validation, model binding validation, etc). This means that enabling validation is really easy for common application scenarios, while at the same time still remaining very flexible for more advanced ones.   **Model binding** (custom model binders) <http://www.codeproject.com/Articles/159749/ASP-NET-MVC-Model-Binding-Part1> **ORM concepts**(L2S,EF etc) **LINQ** using sqlMembershiptProvider and sqlRoleProvider with mvc (if u want to use them) <http://stackoverflow.com/questions/3900682/asp-net-mvc-interview-questions>
