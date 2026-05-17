@@ -1,0 +1,10 @@
+title: Practice QA
+description: Software testing and automation interview questions
+theme: minima
+baseurl: "/practiceqa"
+url: "https://shajeebsh.github.io"
+
+# For GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
